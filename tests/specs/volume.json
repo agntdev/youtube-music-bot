@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/volume",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Adjust playback volume (0-100)"
+            }
+          }
+        ],
+        "send": {
+          "text": "/volume"
+        }
+      }
+    ]
+  }
+]
