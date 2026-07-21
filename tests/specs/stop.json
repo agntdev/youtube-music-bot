@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/stop",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Stop playback and leave voice chat"
+            }
+          }
+        ],
+        "send": {
+          "text": "/stop"
+        }
+      }
+    ]
+  }
+]
